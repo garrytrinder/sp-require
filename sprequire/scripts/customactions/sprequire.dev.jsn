@@ -1,0 +1,10 @@
+{
+	"__metadata": {
+		"type": "SP.UserCustomAction"
+	},
+	"Location": "ScriptLink",
+	"ScriptSrc": "~site/Style Library/sprequire/init.js",
+	"Sequence": "101",
+	"Title": "sprequire dev",
+	"Description": "Deploys sprequire assets"
+}

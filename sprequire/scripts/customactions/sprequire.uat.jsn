@@ -1,0 +1,10 @@
+{
+	"__metadata": {
+		"type": "SP.UserCustomAction"
+	},
+	"Location": "ScriptLink",
+	"ScriptSrc": "~site/SiteAssets/init.uat.js",
+	"Sequence": "101",
+	"Title": "sprequire uat",
+	"Description": "Deploys sprequire assets"
+}

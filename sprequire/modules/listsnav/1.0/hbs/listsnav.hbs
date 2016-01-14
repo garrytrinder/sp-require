@@ -1,0 +1,8 @@
+<div class="listsnav">   
+    <select name="listsnav" id="listsnav">
+        <option value="">Quick Launch</option>
+        {{#each lists as |item|}}
+            <option value="{{item.Path}}">{{item.Title}}</option>
+        {{/each}}
+    </select>
+</div>
