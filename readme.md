@@ -24,4 +24,4 @@ As well as showing how RequireJS could work in a SharePoint site to load functio
 
 [![sp-require](https://j.gifs.com/wpVYoX.gif)](https://www.youtube.com/watch?v=M23otQN-6MA)
 
-*Click above gif to open video on YouTube*
+*Click above gif to open full video on YouTube*
