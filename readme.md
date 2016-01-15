@@ -19,3 +19,7 @@ If all goes well, you should see lots of console messages from the require code 
 The Quick Launch is an example of functionality loaded only once, add the YouTube web part to a page and save it to test content that is not always on the page.
 
 As well as showing how RequireJS could work in a SharePoint site to load functionality into pages, this demo also shows how you can use Handlebars templates and load dynamic CSS within modules through RequireJS plugins.
+
+###Demo
+
+[![Demo CountPages alpha](http://img.youtube.com/vi/M23otQN-6MA/0.jpg)](https://www.youtube.com/watch?v=M23otQN-6MA)
