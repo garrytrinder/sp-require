@@ -22,4 +22,4 @@ As well as showing how RequireJS could work in a SharePoint site to load functio
 
 ###Demo
 
-[![Demo CountPages alpha](http://img.youtube.com/vi/M23otQN-6MA/0.jpg)](https://www.youtube.com/watch?v=M23otQN-6MA)
+[![sp-require](https://j.gifs.com/wpVYoX.gif)](https://www.youtube.com/watch?v=M23otQN-6MA)
