@@ -19,15 +19,3 @@ If all goes well, you should see lots of console messages from the require code 
 The Quick Launch is an example of functionality loaded only once, add the YouTube web part to a page and save it to test content that is not always on the page.
 
 As well as showing how RequireJS could work in a SharePoint site to load functionality into pages, this demo also shows how you can use Handlebars templates and load dynamic CSS within modules through RequireJS plugins.
-
-<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
-  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-    <source src="sprequire.mp4" type='video/mp4'>
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a web browser that
-      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-    </p>
-  </video>
-
-<script src="http://vjs.zencdn.net/5.4.6/video.js"></script>
-  
