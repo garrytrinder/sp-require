@@ -1,6 +1,6 @@
 #sp-require
 
-This repository aims to integrate the RequireJS file loader with **SharePoint 2013** and **Office 365**. It was bourne out of a discussion following the demo of the [OfficePnP Core.JavaScript](https://github.com/OfficeDev/PnP/tree/master/Samples/Core.JavaScript) pattern by Patrick Rodgers.
+This repository aims to integrate the RequireJS file loader with **SharePoint 2013** and **Office 365**. It was borne out of a discussion following the demo of the [OfficePnP Core.JavaScript](https://github.com/OfficeDev/PnP/tree/master/Samples/Core.JavaScript) pattern by Patrick Rodgers.
 
 The code in this repository is provided as-is and is not intended to be a fully working solution, it is for demo purposes only.
 
