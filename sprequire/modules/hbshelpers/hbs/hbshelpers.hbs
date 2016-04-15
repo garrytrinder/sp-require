@@ -1,0 +1,14 @@
+{{!
+{
+  "name" : "hbshelpertest",
+  "decription" : "HBS Helper Test",
+  "helpers": ["getValueByKey"]
+}
+}}
+<div class="results">
+    <ul>
+        {{#each results as |result|}}
+        <li>{{getValueByKey result.Cells "Title"}}</li>
+        {{/each}}
+    </ul>
+</div>

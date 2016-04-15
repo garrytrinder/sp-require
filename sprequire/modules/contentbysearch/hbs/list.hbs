@@ -1,0 +1,9 @@
+<ul>
+    {{#each this.PrimaryQueryResult.RelevantResults.Table.Rows as |result|}}
+    <li>
+        <a href='{{getValueByKey result.Cells 'Path'}}'>
+            {{getValueByKey result.Cells 'Title'}}
+        </a>
+    </li>
+    {{/each}}
+<ul>

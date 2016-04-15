@@ -41,7 +41,7 @@ define(['hbs/handlebars', 'hbs/underscore', 'hbs/json2'], function (Handlebars, 
   var customNameExtension = '@hbs';
   var devStyleDirectory = '/styles/';
   var buildStyleDirectory = '/demo-build/styles/';
-  var helperDirectory = 'libs/hbs/helpers/';
+  var helperDirectory = 'templates/helpers/';
   var buildCSSFileName = 'screen.build.css';
   var onHbsReadMethod = "onHbsRead";
 

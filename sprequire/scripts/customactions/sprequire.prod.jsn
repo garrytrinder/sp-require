@@ -3,7 +3,7 @@
 		"type": "SP.UserCustomAction"
 	},
 	"Location": "ScriptLink",
-	"ScriptSrc": "~site/SiteAssets/init.min.js",
+	"ScriptSrc": "~site/SiteAssets/init.min.js?bust=20160125",
 	"Sequence": "101",
 	"Title": "sprequire prod",
 	"Description": "Deploys sprequire assets"

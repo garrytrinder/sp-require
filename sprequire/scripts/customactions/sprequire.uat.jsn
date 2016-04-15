@@ -3,7 +3,7 @@
 		"type": "SP.UserCustomAction"
 	},
 	"Location": "ScriptLink",
-	"ScriptSrc": "~site/SiteAssets/init.uat.js",
+	"ScriptSrc": "~site/SiteAssets/init.uat.js?bust=20160125",
 	"Sequence": "101",
 	"Title": "sprequire uat",
 	"Description": "Deploys sprequire assets"

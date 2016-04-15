@@ -1,0 +1,41 @@
+<div id='{{id}}'>
+    <table cellspacing='0' cellpadding='0' style='width:100%;border-collapse:collapse;'>
+        <tbody>
+            <tr>
+                <td>
+                    <div class='UserSectionTitle'> <span style='padding-left:7px'>&nbsp;Settings</span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class='ms-propGridTable' id='customprops'>
+        <table cellspacing='0' style='border-width:0px;width:100%;border-collapse:collapse;'>
+            <tbody>
+                {{#each properties as |property|}}
+                <tr>
+                    <td>
+                        <div class='UserSectionHead'>
+                            <label for='{{property.key}}'>{{property.title}}</label>
+                        </div>
+                        <div class='UserSectionBody'>
+                            <div class='UserControlGroup'>
+                                {{#compare property.type 'slot'}}
+                                <nobr>
+                                    <input name='{{property.key}}' class='webpartprop' type='text' value='{{property.value}}' size='255' class='UserInput' ms-tlpnwiden='true' style="width:252px;" />
+                                </nobr>
+                                {{/compare}}
+                                {{#compare property.type 'person'}}
+                                <nobr>
+                                    <div class='peoplepicker' id='peoplepicker{{@index}}' name='{{property.key}}' data-value='{{property.value}}'>
+                                    </div>
+                                </nobr>
+                                {{/compare}}
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>
